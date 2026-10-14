@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="繆承祐平面攝影作品集：街拍、底片、成龍溼地藝術季與土庫在地店家紀錄。" />
+  <meta name="theme-color" content="#0b1311" />
+  <title>繆承祐｜平面攝影作品集</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="photography.css" />
+</head>
+<body class="photography-page">
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到頁首">
+      <strong>CHEN-YOU MIAO</strong>
+      <span>平面攝影作品集</span>
+    </a>
+    <nav class="portfolio-switch" aria-label="切換作品集">
+      <a href="index.html">剪輯作品</a>
+      <a class="is-active" href="photography.html" aria-current="page">平面攝影</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="photo-intro" aria-labelledby="photo-title">
+      <p class="photo-kicker">SELECTED PHOTOGRAPHY · 2026</p>
+      <div class="photo-heading-row">
+        <h1 id="photo-title">平面攝影<span>作品集</span></h1>
+        <p>用街頭、底片與專案紀錄，保留人物和地方在當下的狀態。</p>
+      </div>
+    </section>
+
+    <nav class="photo-tabs" aria-label="攝影專案分類" role="tablist">
+      <button class="photo-tab is-active" type="button" role="tab" aria-selected="true" data-gallery="street">
+        <span>01</span>日常街拍
+      </button>
+      <button class="photo-tab" type="button" role="tab" aria-selected="false" data-gallery="film">
+        <span>02</span>底片
+      </button>
+      <button class="photo-tab" type="button" role="tab" aria-selected="false" data-gallery="chenglong">
+        <span>03</span>成龍溼地藝術季
+      </button>
+      <button class="photo-tab" type="button" role="tab" aria-selected="false" data-gallery="tuku">
+        <span>04</span>土庫在地店家宣傳
+      </button>
+    </nav>
+
+    <section class="photo-gallery-section" aria-live="polite" aria-atomic="false">
+      <header class="gallery-heading">
+        <div>
+          <p class="gallery-index" id="gallery-index">PROJECT 01</p>
+          <h2 id="gallery-title">日常街拍</h2>
+        </div>
+        <p class="gallery-count" id="gallery-count">12 PHOTOS</p>
+      </header>
+      <div class="photo-gallery" id="photo-gallery" role="tabpanel" aria-labelledby="gallery-title"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer photo-footer">
+    <a href="#top">CHEN-YOU MIAO</a>
+    <span>平面攝影作品集</span>
+    <span>2026</span>
+  </footer>
+
+  <script src="photography.js"></script>
+</body>
+</html>
