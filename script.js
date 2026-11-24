@@ -123,7 +123,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
 
 const navLinks = [...document.querySelectorAll(".desktop-nav a")];
-const projects = [...document.querySelectorAll(".project")];
+const projects = [...document.querySelectorAll(".featured-documentary, .project")];
 
 const sectionObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {

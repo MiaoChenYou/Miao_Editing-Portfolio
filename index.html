@@ -6,7 +6,7 @@
   <meta name="description" content="繆承祐剪輯作品集：藝文活動、藝術家訪談、紀錄短片與宣傳影像。" />
   <meta name="theme-color" content="#0b1311" />
   <title>繆承祐｜剪輯作品集</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20261124-project-align-4" />
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -22,6 +22,7 @@
         <a href="photography.html">平面攝影</a>
       </nav>
       <nav class="desktop-nav" aria-label="作品導覽">
+        <a class="featured-nav-link" href="#documentary">00</a>
         <a href="#project-01">01</a>
         <a href="#project-02">02</a>
         <a href="#project-03">03</a>
@@ -31,6 +32,7 @@
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">MENU</button>
     </div>
     <nav class="mobile-nav" id="mobile-nav" aria-label="行動版作品導覽">
+      <a href="#documentary">00 — 告別公式</a>
       <a href="#project-01">01 — 萬彩協奏</a>
       <a href="#project-02">02 — 南火之誕</a>
       <a href="#project-03">03 — 馬祖國際藝術島</a>
@@ -49,7 +51,62 @@
         <h1 id="cover-title">剪輯<br />作品集</h1>
         <p class="cover-year">2026</p>
       </div>
-      <a class="scroll-cue" href="#project-01"><span>SCROLL TO VIEW</span><i aria-hidden="true"></i></a>
+      <a class="scroll-cue" href="#documentary"><span>SCROLL TO VIEW</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <section class="featured-documentary" id="documentary" aria-labelledby="documentary-title">
+      <div class="featured-rule" aria-hidden="true"></div>
+
+      <header class="featured-header reveal">
+        <div class="featured-marker">
+          <span>00</span>
+          <p>FEATURED<br />DOCUMENTARY</p>
+        </div>
+        <p class="featured-platform">TAIWAN PITCH · TAIWANPLUS</p>
+      </header>
+
+      <div class="featured-layout">
+        <div class="featured-copy reveal">
+          <p class="featured-eyebrow">導演作品 · 2023</p>
+          <h2 id="documentary-title">《告別公式》</h2>
+          <p class="featured-en-title">THE WAY TO SAY GOODBYE</p>
+          <p class="featured-summary">透過禮儀師的工作與生命觀，凝視一場告別如何被完成，也重新思考我們面對至親離去的方式。</p>
+
+          <dl class="featured-credits">
+            <div>
+              <dt>DIRECTOR</dt>
+              <dd>MIAO Chen-you</dd>
+            </div>
+            <div>
+              <dt>PRODUCER</dt>
+              <dd>YANG Jia-xin</dd>
+            </div>
+          </dl>
+
+          <a class="documentary-button" href="https://www.taiwanplus.com/shows/lifestyle/culture/428/taiwan-pitch/230217061/the-way-to-say-goodbye" target="_blank" rel="noreferrer">
+            <span>前往 TaiwanPlus 觀看</span>
+            <b aria-hidden="true">↗</b>
+          </a>
+        </div>
+
+        <figure class="featured-visual reveal">
+          <img src="assets/documentary/the-way-to-say-goodbye.webp" alt="《告別公式》紀錄片劇照，禮儀師引導告別儀式" />
+          <div class="featured-image-shade" aria-hidden="true"></div>
+          <figcaption>
+            <span>《告別公式》</span>
+            <span>OFFICIAL STILL · TAIWANPLUS</span>
+          </figcaption>
+          <a class="documentary-play" href="https://www.taiwanplus.com/shows/lifestyle/culture/428/taiwan-pitch/230217061/the-way-to-say-goodbye" target="_blank" rel="noreferrer" aria-label="前往 TaiwanPlus 觀看《告別公式》">
+            <i aria-hidden="true"></i>
+          </a>
+        </figure>
+      </div>
+
+      <footer class="featured-footer reveal">
+        <span>A FILM BY CHEN-YOU MIAO</span>
+        <span>紀錄片 · 導演作品</span>
+        <span>00 / 05</span>
+      </footer>
     </section>
 
     <section class="project" id="project-01" aria-labelledby="project-01-title">
@@ -189,6 +246,6 @@
     <span>2026</span>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=20261124-project-align-4"></script>
 </body>
 </html>
